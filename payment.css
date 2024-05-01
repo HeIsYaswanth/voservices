@@ -1,0 +1,137 @@
+#vos {
+  text-decoration: none;
+  color: #fff;
+}
+
+#payment-menu {
+  color: #9d9898 !important;
+  cursor: pointer;
+}
+
+#head {
+  text-align: center;
+  font-size: 6vw;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+#accordion-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% 10%;
+  letter-spacing: 1px;
+  font-size: 2.5vw;
+}
+
+#accordion-head img {
+  max-width: 35px;
+}
+
+#accordionExample {
+  width: 60%;
+  margin-left: 20%;
+}
+
+#qr-container {
+  display: block;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+#upi-text {
+  max-width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+#qr-image {
+  max-width: 300px;
+  border: solid 5px #9d9898;
+}
+
+#or,
+#upi-number {
+  font-size: 2vw;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+
+#question,
+#chill {
+  display: inline-block;
+  font-size: 2vw;
+}
+
+#line1 {
+  max-width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#question {
+  color: crimson;
+}
+#chill {
+  color: green;
+}
+
+#line2,
+#line3 {
+  max-width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2vw;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 500px) {
+  #head {
+    font-size: 12vw;
+  }
+  #accordion-head {
+    font-size: 4vw;
+  }
+  #upi-text {
+    max-width: 92%;
+    margin-left: 4%;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 3vw;
+  }
+  #qr-image {
+    max-width: 50vw;
+  }
+  #qr-container {
+    margin-top: 15px;
+  }
+  #or,
+  #upi-number {
+    font-size: 4vw;
+    margin-top: 15px;
+  }
+  #upi-number {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .handcash-inner-text {
+    font-size: 4vw !important;
+  }
+  #line1,
+  #line2,
+  #line3 {
+    max-width: 92%;
+    margin-left: 4%;
+  }
+  #line2,
+  #line3 {
+    margin-top: 15px;
+  }
+}

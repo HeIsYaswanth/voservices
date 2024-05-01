@@ -1,0 +1,65 @@
+#vos {
+  text-decoration: none;
+  color: #fff;
+}
+
+#contact-menu {
+  color: #9d9898 !important;
+  cursor: pointer;
+}
+
+#head {
+  text-align: center;
+  font-size: 6vw;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+
+#icons {
+  max-width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#whatsapp {
+  color: #25d366;
+}
+#icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icon-container a {
+  display: block;
+  text-decoration: none;
+  font-size: 15vw;
+  border: solid #393838;
+  padding: 20px;
+  border-radius: 20px;
+}
+#icon-container a:hover {
+  box-shadow: 7px 5px 20px #aaa;
+  transition: all 0.5s ease;
+}
+
+#phone {
+  color: cornflowerblue;
+}
+
+#instagram {
+  color: #de3e1b;
+}
+
+@media screen and (max-width: 500px) {
+  #head {
+    font-size: 13vw;
+  }
+
+  #icons {
+    gap: 40px;
+  }
+}
